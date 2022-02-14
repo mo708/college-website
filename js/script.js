@@ -30,7 +30,7 @@ jsArrow.onclick = function() {
 }
 
 //iteration of the slider of the courses
-/*var counter = 1;
+var counter = 1;
     setInterval(function(){
       document.getElementById('radio' + counter).checked = true;
       counter++;
@@ -47,4 +47,4 @@ var counter = 1;
       if(counter > 4){
         counter = 1;
       }
-    }, 3000);*/
+    }, 3000);
