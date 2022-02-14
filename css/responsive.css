@@ -1,0 +1,470 @@
+/*wide screens and large devices*/
+@media only screen and (max-width : 1200px){
+  
+    #communication-section{
+        width:70%;
+    }  
+    nav{
+        width:70%;
+
+    }
+
+    nav .navbar .links li a{
+        font-size: 0.7em;
+        font-weight: 900;
+    }
+
+    #landing-center-section{
+        width:70%;
+    }  
+
+    .landing-center-content{
+        width:70%;
+        height:50%;
+    }
+
+    #landing-end-section{
+        width:70%;
+    }
+
+   
+    #courses-slider-header{
+        width:70%;
+    }
+
+    .slider{
+        width:70%;
+    }
+
+    #search-section{
+        width:70%;
+    }
+
+    #events-header{
+        width:70%;
+    }
+
+    .slider-events{
+        width:70%;
+    }
+
+    #latest-post-header{
+        width:70%;
+    }
+
+    .slider-blog{
+        width:70%;
+    }
+
+    #question-section{
+        width:70%;
+    }
+
+    #page-footer-section{
+        width:70%;
+    }
+
+    .social-container{
+        width:70%;
+    }
+}
+
+/*medium devices, desktops*/
+@media only screen and (max-width : 992px){
+
+    .navbar .links li a{
+        font-size: 0.5em;
+    }
+
+    .navbar .bx-menu{
+        display: block;
+      }
+      nav .navbar .nav-links{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: block;
+        max-width: 270px;
+        width: 100%;
+        background:  rgba(0, 0, 0, 0.9);
+        line-height: 40px;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.5s ease;
+        z-index: 1000;
+      }
+      .navbar .nav-links .sidebar-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .sidebar-logo .logo-name{
+        font-size: 25px;
+        color: #fff;
+      }
+        .sidebar-logo  i,
+        .navbar .bx-menu{
+          font-size: 25px;
+          color: #fff;
+        }
+      nav .navbar .links{
+        display: block;
+        margin-top: 20px;
+      }
+      nav .navbar .links li .arrow{
+        line-height: 40px;
+      }
+    nav .navbar .links li{
+        display: block;
+      }
+    nav .navbar .links li .sub-menu{
+      position: relative;
+      top: 0;
+      box-shadow: none;
+      display: none;
+    }
+    nav .navbar .links li .sub-menu li{
+      border-bottom: none;
+    
+    }
+    .navbar .links li .sub-menu .more-sub-menu{
+      display: none;
+      position: relative;
+      left: 0;
+    }
+    .navbar .links li .sub-menu .more-sub-menu li{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .links li:hover .htmlcss-arrow,
+    .links li:hover .js-arrow{
+      transform: rotate(0deg);
+      }
+      .navbar .links li .sub-menu .more-sub-menu{
+        display: none;
+      }
+      .navbar .links li .sub-menu .more span{
+        /* background: red; */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+      }
+    
+      .links li .sub-menu .more:hover .more-sub-menu{
+        display: none;
+      }
+      nav .navbar .links li:hover .htmlCss-sub-menu,
+      nav .navbar .links li:hover .js-sub-menu{
+        display: none;
+      }
+    .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+      .navbar .nav-links.show3 .links .js-sub-menu,
+      .navbar .nav-links.show2 .links .more .more-sub-menu{
+          display: block;
+        }
+        .navbar .nav-links.show1 .links .htmlcss-arrow,
+        .navbar .nav-links.show3 .links .js-arrow{
+            transform: rotate(180deg);
+    }
+        .navbar .nav-links.show2 .links .more-arrow{
+          transform: rotate(90deg);
+        }
+
+    .landing-center-content{
+        width:70%;
+        height:50%;
+    }
+
+    #search-section{
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+    }
+
+    .left-sided{
+        width:90%;
+        margin-bottom: 30px;
+    }
+
+    .right-sided{
+        width:85%;
+        min-height:40vh;
+    }
+    
+    .offer-left h2{
+        font-size: 1.5em;
+    }
+
+    .offer-left p{
+        font-size: 0.9em;
+    }
+
+    .expert h3 ,
+    .certificate h3{
+        font-size: 0.9em;
+    }
+
+    .expert p ,
+    .certificate p{
+        font-size: 0.8em;
+    }
+
+    .slider-blog{
+        height:350px;
+    }
+
+    .slides{
+        width:250%;
+    }
+
+    .slider-blog{
+        width:80%;
+        height:800px;
+    }
+
+    .slides-blog{
+        grid-template-columns: auto auto;
+        grid-template-rows: 400px 400px;
+    }
+
+    .slide-blog{
+        width:95%;
+    }
+
+    .details-box p:not(:last-child){
+        font-size: 0.8em;
+    }
+
+    .details-box p:last-child{
+        font-size: 0.8em;
+    }
+
+    .details-box a{
+        font-size: 1.1em;
+    }
+
+    .post-image-box{
+        height:50%;
+    }
+
+    .post-details-box a{
+        font-size: 0.9em;
+    }
+
+    .post-details-box p:last-child{
+        font-size: 0.8em;
+    }
+
+    .column-container h3{
+        font-size: 1em;
+    }
+
+    .copyrights p{
+        font-size: 0.9em;
+    }
+}
+
+/*small devices , tablets*/
+@media only screen and (max-width : 768px){
+    #communication-section{
+        width:80%;
+    }  
+    nav{
+        width:80%;
+
+    }
+
+
+    nav{
+        width:80%;
+    }
+
+    
+    #landing-center-section{
+        width:80%;
+    }  
+
+    .landing-center-content{
+        width:80%;
+        height:100%;
+    }
+
+    #landing-end-section{
+        width:80%;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+    }
+
+    .landing-end-box{
+        margin-bottom: 10px;
+    }
+   
+    #courses-slider-header{
+        width:80%;
+    }
+
+    .slider{
+        width:80%;
+    }
+
+    
+
+    #search-section{
+        width:80%;
+    }
+
+    
+    #events-header{
+        width:80%;
+    }
+
+    .slider-events{
+        width:80%;
+    }
+
+    #latest-post-header{
+        width:80%;
+    }
+
+    
+    #question-section{
+        width:80%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #question-section p{
+        margin-bottom: 20px;
+    }
+
+    #page-footer-section{
+        width:80%;
+        grid-template-columns:auto auto;
+        grid-template-rows: auto auto auto;
+        grid-gap:0px;
+    }
+
+    .column-container h3{
+        font-size: 1.2em;
+    }
+
+    .social-container{
+        width:80%;
+    }
+}
+
+@media only screen and (max-width : 580px){
+
+    #communication-section{
+        width:90%;
+    }  
+    .email-tele-hidden{
+        display:block;
+    }
+
+    .email-tele-hidden a:hover{
+        color:rgb(247,99,27);
+        transition: 0.3s ease-in-out;
+    }
+
+    .email-tele-hidden a{
+        color:white;
+        margin-left:15px;
+        font-size:1em;
+    }
+
+    .email-tele{
+        display:none;
+    }
+
+    
+    nav{
+        width:90%;
+
+    }
+
+    nav .navbar .links li a{
+        font-size: 0.7em;
+        font-weight: 900;
+    }
+
+    #landing-center-section{
+        width:90%;
+    }  
+
+    #landing-end-section{
+        width:90%;
+    }
+
+   
+    #courses-slider-header{
+        width:90%;
+    }
+
+    .slider{
+        width:90%;
+    }
+
+    .slides{
+        width:500%;
+    }
+
+    
+    #events-header{
+        width:90%;
+    }
+
+    .slider-events{
+        width:90%;
+    }
+
+    .slides-events{
+        width:500%;
+    }
+
+    #apply-section{
+        width:90%;
+    }
+
+    #latest-post-header{
+        width:90%;
+    }
+
+    .slider-blog{
+        width:90%;
+        height:1600px;
+    }
+
+    .slides-blog{
+        grid-template-columns: auto;
+        grid-template-rows: 400px 400px 400px 400px;
+    }
+
+    .slide-blog{
+        width:97%;
+    }
+
+    #question-section{
+        width:90%;
+    }
+
+    #question-section a{
+        font-size:0.9em;
+        padding:15px 20px;
+    }
+
+    #page-footer-section{
+        width:90%;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    .social-container{
+        width:90%;
+    }
+}
+
