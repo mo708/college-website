@@ -32,7 +32,7 @@
         width:70%;
     }
 
-    .slider{
+    .swiper{
         width:70%;
     }
 
@@ -44,10 +44,7 @@
         width:70%;
     }
 
-    .slider-events{
-        width:70%;
-    }
-
+    
     #latest-post-header{
         width:70%;
     }
@@ -306,7 +303,7 @@
         width:80%;
     }
 
-    .slider{
+    .swiper{
         width:80%;
     }
 
@@ -321,9 +318,7 @@
         width:80%;
     }
 
-    .slider-events{
-        width:80%;
-    }
+   
 
     #latest-post-header{
         width:80%;
@@ -405,12 +400,8 @@
         width:90%;
     }
 
-    .slider{
+    .swiper{
         width:90%;
-    }
-
-    .slides{
-        width:500%;
     }
 
     
@@ -418,14 +409,7 @@
         width:90%;
     }
 
-    .slider-events{
-        width:90%;
-    }
-
-    .slides-events{
-        width:500%;
-    }
-
+  
     #apply-section{
         width:90%;
     }

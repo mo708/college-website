@@ -29,22 +29,74 @@ jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
 
-//iteration of the slider of the courses
-var counter = 1;
-    setInterval(function(){
-      document.getElementById('radio' + counter).checked = true;
-      counter++;
-      if(counter > 5){
-        counter = 0;
-      }
-    }, 2000);
+// courses swiper
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  keyboard: {
+    enabled: true,
+  },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
 
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
-var counter = 1;
-    setInterval(function(){
-      document.getElementById('radiopoint' + counter).checked = true;
-      counter++;
-      if(counter > 4){
-        counter = 1;
-      }
-    }, 2000);
+//events swiper
+var swiper = new Swiper(".myEventsSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  keyboard: {
+    enabled: true,
+  },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    770: {
+      slidesPerView: 1,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+  },
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
