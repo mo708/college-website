@@ -180,7 +180,15 @@
         align-items:center;
         justify-content: space-between;
     }
-
+    .landing-center-content h1{
+        font-size:3vw;
+    }
+    .landing-center-content p{
+        font-size:2vw;
+    }
+    .landing-center-content a{
+        font-size:2vw;
+    }
     .swiper-button-next , .swiper-button-prev{
         display:none;
         visibility:hidden;
@@ -394,7 +402,17 @@
 
     #landing-center-section{
         width:90%;
-    }  
+    } 
+    
+    .landing-center-content h1{
+        font-size:5vw;
+    }
+    .landing-center-content p{
+        font-size:4vw;
+    }
+    .landing-center-content a{
+        font-size:4vw;
+    }
 
     #landing-end-section{
         width:90%;

@@ -235,14 +235,14 @@ a{
 
 .landing-center-content h1{
     color:rgb(255, 255, 255);
-    font-size:200%;
+    font-size:2vw;
     font-weight: 900;
     padding-bottom: 40px;
 }
 
 .landing-center-content p{
     color:rgb(189, 183, 183);
-    font-size:100%;
+    font-size:1vw;
     padding-bottom: 20px;
 }
 
@@ -253,7 +253,7 @@ a{
     color:rgb(255, 255, 255);
     background-color:rgb(247,99,27);
     border-style: none;
-    font-size:100%;
+    font-size:1vw;
     text-transform: capitalize;
     text-align: center;
 }
