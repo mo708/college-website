@@ -94,6 +94,7 @@ a{
     display: flex;
     align-items: center;
   }
+
   nav .navbar{
     height: 100%;
     width: 100%;
@@ -393,6 +394,9 @@ a{
 
 .swiper-button-next , .swiper-button-prev{
   color:rgb(4,9,30);
+  background-color: #020718f3;
+  width:50px;
+  height:50px;
 }
 
  /*box content css style*/
