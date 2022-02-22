@@ -239,12 +239,24 @@ a{
     font-size:2vw;
     font-weight: 900;
     padding-bottom: 40px;
+    animation:fadeheader 1s ;
+}
+
+@keyframes fadeheader {
+  from{margin-left:100px;opacity:0;}
+  to{margin-left:0px;opacity:1;}
 }
 
 .landing-center-content p{
     color:rgb(189, 183, 183);
     font-size:1vw;
     padding-bottom: 20px;
+    animation:fadepara 1s  0.5s;
+}
+
+@keyframes fadepara {
+  from{margin-left:100px;opacity:0;}
+  to{margin-left:0px;opacity:1;}
 }
 
 .landing-center-content a{
@@ -257,6 +269,12 @@ a{
     font-size:1vw;
     text-transform: capitalize;
     text-align: center;
+    animation:fadebutton 1.5s  1.5s;
+}
+
+@keyframes fadebutton {
+  from{margin-left:100px; opacity:0;}
+  to{margin-left:0px; opacity:1;}
 }
 
 .landing-center-content a:hover{
