@@ -239,7 +239,7 @@ a{
     font-size:2vw;
     font-weight: 900;
     padding-bottom: 40px;
-    animation:fadeheader 1s ;
+    animation:fadeheader 2s ;
 }
 
 @keyframes fadeheader {
@@ -251,7 +251,7 @@ a{
     color:rgb(189, 183, 183);
     font-size:1vw;
     padding-bottom: 20px;
-    animation:fadepara 1s  0.5s;
+    animation:fadepara 2s ;
 }
 
 @keyframes fadepara {
@@ -269,7 +269,7 @@ a{
     font-size:1vw;
     text-transform: capitalize;
     text-align: center;
-    animation:fadebutton 1.5s  1.5s;
+    animation:fadebutton 2s ;
 }
 
 @keyframes fadebutton {
